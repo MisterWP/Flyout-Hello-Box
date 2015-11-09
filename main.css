@@ -1,0 +1,76 @@
+/* ------------------------------------------------------------------------
+	Flyout Hello Box
+	
+	Developped By: Nicolas Laruelle -> http://www.mister-wp.com
+    Version: 1.0
+	
+	Copyright: Modification, personnal use and commercial use permitted, fork and redistribution prohibited.
+------------------------------------------------------------------------- */
+
+#flyout {
+    width: 380px;
+    background-color: #FFFFFF;
+    font-family: Verdana, sans-serif;
+    border-radius: 2px;
+    font-size:13px;
+    color: #5c5e60;
+    box-shadow: 2px 2px 5px #CCCCCC;
+    background-color: #509ef9;
+}
+#flyout #flyingContainer
+{
+    padding:7px 15px;
+    background-color:#FFFFFF;
+    margin-top:8px;
+}
+#flyout a#closeFlyout
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    opacity: .2;
+    text-decoration:none;
+    float:right;
+
+    transition: opacity .25s ease,visibility .1s ease .25s;
+    -o-transition: opacity .25s ease,visibility .1s ease .25s;
+    -ms-transition: opacity .25s ease,visibility .1s ease .25s;
+    -moz-transition: opacity .25s ease,visibility .1s ease .25s;
+    -webkit-transition: opacity .25s ease,visibility .1s ease .25s;
+}
+#flyout a#closeFlyout:hover
+{
+    opacity: .5;
+}
+#flyout h3
+{
+    font-weight:bold;
+    font-size:15px;
+}
+#flyout div.socialNetwork
+{
+    margin:10px 0 10px 0;
+}
+.clear {
+clear:both;
+}
+
+div.rs1, div.rs2, div.rs3, div.rs4 {
+
+    float: left;
+    margin: 0 15px 10px 0;
+    height: 30px;
+    
+}
+
+div.linkedin a 
+{
+    text-decoration: none;
+    color:#666;
+    font-size:11px;
+}
+
+div.linkedin iframe
+{
+    margin-left:-160px;
+}
