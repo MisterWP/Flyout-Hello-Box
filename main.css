@@ -16,6 +16,7 @@
     color: #5c5e60;
     box-shadow: 2px 2px 5px #CCCCCC;
     background-color: #509ef9;
+    z-index: 99999;
 }
 #flyout #flyingContainer
 {
@@ -46,6 +47,7 @@
 {
     font-weight:bold;
     font-size:15px;
+    margin-top: 0;
 }
 #flyout div.socialNetwork
 {
@@ -60,7 +62,7 @@ div.rs1, div.rs2, div.rs3, div.rs4 {
     float: left;
     margin: 0 15px 10px 0;
     height: 30px;
-    
+    min-width: 130px;
 }
 
 div.linkedin a 
