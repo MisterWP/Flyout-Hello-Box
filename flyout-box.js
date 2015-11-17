@@ -26,7 +26,7 @@ jQuery( document ).ready(function( $ ) {
         var el = this;
         var edge = options.edge || paddingRight;
         el.css({
-            position : "absolute",
+            position : "fixed",
             top : paddingTop+"px",
             right : -1 * (el.width() - edge)
         });
