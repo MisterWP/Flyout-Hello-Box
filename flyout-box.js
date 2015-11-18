@@ -44,6 +44,10 @@ jQuery( document ).ready(function( $ ) {
     {
         console.log('Flyout already closed for x days');
     }
+    else if($( window ).width() < 420)
+    {
+        console.log('Do not display on too small screens');
+    }
     else
     {
         setTimeout(function()
